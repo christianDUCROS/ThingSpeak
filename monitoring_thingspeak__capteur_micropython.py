@@ -104,7 +104,7 @@ while True :
     send_temperature_ThingSpeak(temperature)
     print('mise en sommeil légé') #RP2 ne permet pas le sommeil profond
     time.sleep(3) #temps d'affichage avant mise en sommeil
-    machine.lightsleep(20000)
+    machine.lightsleep(3600000) #1 heure
 # ****************************************
 
 
